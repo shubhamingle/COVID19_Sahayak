@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    font-family: 'Open Sans', Segoe UI, Montserrat, Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar {
+    overflow: auto;
+    background-color: #022140;
+    color: #fff;
+}
+
+.container {
+    max-width: 75%;
+    margin: auto;
+}
+
+.container h1 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.container a {
+    float: right;
+    padding: 20px 20px;
+    display: block;
+    font-size: 1.2em;
+    border: none;
+    color: #fff;
+}
+
+.container a:hover {
+    color: #f7c0f8;
+    background-color: #444;
+}
+
+#covid-image {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Table - global data */
+.global-data {
+    font-size: 1.3em;
+    margin: auto;
+    margin-top: 30px;
+    table-layout: fixed;
+}
+
+.global-data tr:first-child {
+    font-weight: bold;
+}
+
+.global-data tr:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.global-data td {
+    padding: 10px 30px;
+    text-align: center;
+    width: 33%;
+    border: none;
+}
+
+.global-data tr:nth-child(2) td:first-child {
+    border-bottom: yellow 5px solid;
+}
+
+.global-data tr:nth-child(2) td:nth-child(2) {
+    border-bottom: green 5px solid;
+}
+
+.global-data tr:nth-child(2) td:nth-child(3) {
+    border-bottom: red 5px solid;
+}
+
+/* Country wise data */
+.countries {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.countries h3 {
+    margin-bottom: 10px;
+}
+
+.country-data {
+    border-spacing: 0;
+    
+    border: #9E9D99 1px solid;
+}
+
+.country-data th,
+td {
+    text-align: left;
+}
+
+.country-data th {
+    color: #feffff;
+    background-color: #026670;
+    padding: 20px 20px;
+
+}
+
+.country-data tr {
+    color: #666666;
+    background-color: #fff;
+}
+
+.country-data td {
+    border-bottom: #9E9D99 1px solid;
+    padding: 10px 20px;
+}
+
+.country-data tr:hover {
+    background-color: #ececff
+}
+
+.country-icon {
+    width: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+#date {
+    padding: 10px;
+    
+}
+
+/* Helpline numbers */
+
+.helpline-container {
+    background-color: #F8FDFE;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.helpline-container div{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-right: 70px;
+}
+
+.helpline-container p,span{
+    padding-bottom: 10px;
+    
+}
+
+.helpline-container a{
+    color: #1414A6;
+}
+
+
+.helpline-container div img {
+    width: 15px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.helpline-inner{
+    width: 75%;
+    margin-left: 35px;
+    
+    
+}
+
+/* Vaccine finder */
+
+
+.vac-finder {
+    margin: auto;
+    width: 45%;
+    margin-top: 50px;
+    
+    
+}
+
+.vac-finder h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inner-container {
+    margin: auto;
+    width: 80%;
+    
+}
+
+#pincode {
+    width: 75%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: #333 1px solid;
+    outline: none;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 40px;
+    color: #fff;
+    background-color: #022140;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary-small {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.6em;
+    color: #fff;
+    background-color: #265077;
+    border: 0;
+}
+
+.date {
+    padding: 5px;
+}
+
+.available-slots {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.center-container td {
+    vertical-align: top;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: #C8C8C8 1px solid;
+}
+
+#no-of-centers {
+    font-size: 0.6em;
+    color: grey;
+}
+
+.center-left {
+    width: 25%;
+    padding-right: 10px;
+}
+
+.center-left p {
+    margin-top: 10px;
+}
+
+.slot-container {
+    margin: 10px;
+    display: inline-block;
+    background-color: #def2f1;
+    color: #2e1114;
+    padding: 5px;
+    width: 220px;
+    height: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.slot-container a {
+    background-color: #3aafa9;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.vaccine-name {
+    color: #17252a;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fees {
+    font-size: 0.8em;
+}
+
+.booked {
+    text-align: center;
+}
+
+.booked span {
+    background-color: #831515;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}

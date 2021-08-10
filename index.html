@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap CSS only 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">  -->
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>COVID-19 Sahayak</title>
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+
+    <div class="nav-bar">
+        <div class="container">
+            <image src="./covid.png" id="covid-image"></image>
+            <h1>COVID-19 Sahayak</h1>
+            <a href="#">Resources</a>
+            <a href="#">About</a>
+            <a href="#">Home</a>
+        </div>
+    </div>
+
+    <p id="date">Last Updated: </p>
+
+    <!-- Global data -->
+
+    <table class="global-data">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Coronavirus Cases</td>
+            <td>Recovered</td>
+            <td>Deaths</td>
+        </tr>
+    </table>
+
+    <!-- Helpline numbers -->
+
+    <div class="helpline-container">
+        <div class="helpline-inner">
+            <div>
+                <img src="./phone-call.png" alt="">
+                <span>HELPLINE</span>
+            </div>
+            <div>
+                <p>Number</p>
+                <a href="#">91-11-23978046</a>
+            </div>
+            <div>
+                <p>Health Ministry</p>
+                <a href="#">1075</a>
+            </div>
+            <div>
+                <p>Child</p>
+                <a href="#">1098</a>
+            </div>
+            <div>
+                <p>Mental Health</p>
+                <a href="#">08046110007</a>
+            </div>
+            <div>
+                <p>Senior Citizens</p>
+                <a href="#">14567</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vaccine finder -->
+
+    <div class="vac-finder">
+        <h2>Check Your Nearest Vaccination Center And Slots Availability</h2>
+        <div class="inner-container">
+            <span>Select Date:</span>
+            <input class="date" type="date" placeholder="current date"><br><br>
+            <input id="pincode" type="number" placeholder="Enter your PIN">
+            <input class="submit-pin btn-primary" type="button" name="Search" value="SEARCH">
+        </div>
+    </div>
+
+    <div class="available-slots">
+        <h2></h2>
+        <p></p>
+        <table class="center-container">
+        </table>
+    </div>
+
+    <!-- Country-wise data -->
+
+    <div class="countries">
+        <h3>Global Data:</h3>
+        <table class="country-data">
+            <tr>
+                <th>#</th>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Total Recovered</th>
+                <th>Total Deaths</th>
+                <th>New Confirmed</th>
+                <th>New Recovered</th>
+                <th>New Deaths</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
